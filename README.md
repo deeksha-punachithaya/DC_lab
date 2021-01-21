@@ -27,4 +27,6 @@ mpicc <filename>.c
 mpirun -np 4 ./a.out 
 #try mpiexec if mpirun does not work
 #try with -np 2 if 4 does not work 
+mpicc filename.c -o app.exe
+mpirun -np 4 ./app.exe
 ```
